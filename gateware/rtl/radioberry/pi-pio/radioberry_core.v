@@ -66,7 +66,7 @@ parameter       DSIQ_FIFO_DEPTH = 16384;
 
 parameter 		FPGA_TYPE = 2'b10; //CL016 = 2'b01 ; CL025 = 2'b10
 localparam      VERSION_MAJOR = 8'd75;
-localparam      VERSION_MINOR = 8'd1;
+localparam      VERSION_MINOR = 8'd2;
 
 localparam int NR_CLAMP = (NR > 6) ? 6 : NR;
 localparam int NT_CLAMP = (NT > 1) ? 1 : NT;
